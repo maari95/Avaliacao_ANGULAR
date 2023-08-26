@@ -1,0 +1,15 @@
+<div class="container">
+<div>
+    <h2>Login</h2>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" class="form-control form-control-sm" id="email" [(ngModel)]="email" placeholder="e-mail">
+    </div>
+    <div>
+        <label for="senha">Senha:</label>
+        <input type="password"class="form-control form-control-sm"  id="senha" [(ngModel)]="senha" placeholder="senha">
+    </div>
+    <button class="btn btn-secondary btn-sm" (click)="login()">Entrar</button>
+    <p *ngIf="mensagem" class="error-message">{{ mensagem }}</p>
+</div>
+</div>

@@ -1,0 +1,19 @@
+<div class="container">
+
+    <h2>Novo Produto</h2>
+
+<form #n="ngForm" (ngSubmit)="submitForm(n)">
+
+    <div>
+       <label for ="nome">Nome</label>
+        <input type="text" class="form-control form-control-sm" id="nome" name="nome_produto" [(ngModel)]="dadosP.nome_produto">
+    </div>
+
+    <div>
+        <label for ="idade">Preço</label>
+        <input type="text" class="form-control form-control-sm" id="preco" name="preco" [(ngModel)]="dadosP.preco">
+    </div>
+
+    <button class="btn btn-secondary btn-sm" type="submit">Enviar</button>
+</form>
+</div>

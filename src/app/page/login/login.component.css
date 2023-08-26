@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Mynerve&display=swap');
+
+.container{
+    margin-top: 5rem;
+    max-width: fit-content; 
+    
+}
+button{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 3.5rem;
+    font-family: 'Comfortaa', cursive;
+}
+h2{
+    margin-bottom: 2.5rem;
+    margin-left: 2rem;
+    font-family: 'Comfortaa', cursive;
+
+}
+label{
+    font-family: 'Comfortaa', cursive;
+    margin-top: 1rem;
+
+}
