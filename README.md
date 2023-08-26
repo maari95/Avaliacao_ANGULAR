@@ -1,5 +1,17 @@
 # Projeto Avaliativo de Angular + Firebase 
 
+
+- Criação de um CRUD simples;
+- Sistema de login utilizando o firebase.
+
+#
+
+Recursos Utilizados:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2560px-AngularJS_logo.svg.png" width="150px" height="50px"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="150px" height="80px"/><img src="https://kortkamp.dev/ts_logo.png" width="150px" height="80px">
+                
+
+#
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 
 ## Development server
