@@ -1,0 +1,17 @@
+/* Estilos do seu código existente */
+
+/* Adicione estilos para manter o rodapé no final da página */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-top: 8rem;
+}

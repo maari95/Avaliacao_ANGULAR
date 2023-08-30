@@ -5,11 +5,14 @@ import { AtualizarProdutoComponent } from './page/atualizar-produto/atualizar-pr
 import { LoginComponent } from './page/login/login.component';
 import { NovoProdutoComponent } from './page/novo-produto/novo-produto.component';
 import { ProdutoComponent } from './page/produto/produto.component';
+import { HomeComponent } from './page/home/home.component';
+
 
 const routes: Routes = [
-  {path:'', component: ProdutoComponent, canActivate:[AuthgardService]},
-  {path: 'novo', component: NovoProdutoComponent},
-  {path: 'atualizar/:id', component:AtualizarProdutoComponent},
+  {path:'', component:HomeComponent, canActivate:[AuthgardService]},
+  {path:'produto', component: ProdutoComponent, canActivate:[AuthgardService]},
+  {path: 'novo', component: NovoProdutoComponent, canActivate:[AuthgardService]},
+  {path: 'atualizar/:id', component:AtualizarProdutoComponent, canActivate:[AuthgardService]},
   {path:'login', component:LoginComponent}
 ];
 

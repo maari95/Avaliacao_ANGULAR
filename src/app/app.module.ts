@@ -9,14 +9,16 @@ import { AtualizarProdutoComponent } from './page/atualizar-produto/atualizar-pr
 import { HttpClientModule } from '@angular/common/http';
 
 // Importação para formulário
-import { FormsModule }  from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 
 // Configuração de login
 import { configuracao } from './configuracao';
-import {AngularFireModule} from '@angular/fire/compat';
+import { AngularFireModule } from '@angular/fire/compat';
 import { LoginComponent } from './page/login/login.component';
-
+import { NavbarComponent } from './sharepage/navbar/navbar.component';
+import { FooterComponent } from './sharepage/footer/footer.component';
+import { HomeComponent } from './page/home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +26,12 @@ import { LoginComponent } from './page/login/login.component';
     ProdutoComponent,
     NovoProdutoComponent,
     AtualizarProdutoComponent,
-    LoginComponent
-    
+    LoginComponent,
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent
+
+
   ],
   imports: [
     BrowserModule,
@@ -34,7 +40,7 @@ import { LoginComponent } from './page/login/login.component';
     FormsModule,
     ReactiveFormsModule,
     AngularFireModule.initializeApp(configuracao)
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

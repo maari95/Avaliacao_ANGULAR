@@ -14,6 +14,7 @@ export class FirebaseloginService {
     return this.autenticar.signInWithEmailAndPassword(email, senha)
   }
 
+  //Metodo de registro de usuário (a ser implementado)
   registro(email: string, senha: string){
     return this.autenticar.createUserWithEmailAndPassword(email, senha)
   }
@@ -30,9 +31,17 @@ export class FirebaseloginService {
 
 
   // Metodo de logOff 
-  logout(){
+  /*  logout() {
     localStorage.removeItem('token');
     localStorage.removeItem('expiracao');
-    return this.autenticar.signOut();
-  }
+    this.autenticar.signOut()
+      .then(() => {
+        console.log('Usuário desconectado com sucesso.');
+        // Aqui você pode redirecionar o usuário para a página de login ou fazer outra ação após o logout.
+      })
+      .catch(error => {
+        console.error('Erro ao desconectar o usuário:', error);
+      });
+  }  */
+  
 }

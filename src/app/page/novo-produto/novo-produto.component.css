@@ -1,21 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Mynerve&display=swap');
 
-.container{
-    margin-top: 8rem;
-    width: 30rem;    
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
 }
-button{
+
+.container {
+    width: 30rem;
+    max-width: 90%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin-top: 9.5rem;
+}
+
+button {
     font-family: 'Comfortaa', cursive;
-    margin-top:1.5rem;
-    margin-left: 12rem;
+    margin-top: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-label{
+
+label {
     font-family: 'Comfortaa', cursive;
     margin-top: 1rem;
 }
-h2{
-    margin-bottom: 1.5rem;
-    margin-left: 6.5rem;
-    font-family: 'Comfortaa', cursive;
 
+h2 {
+    margin-bottom: 1.5rem;
+    font-family: 'Comfortaa', cursive;
+    text-align: center; /* Centraliza horizontalmente */
+}
+
+/* Adicionando regras de responsividade */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+img{
+    width: 30%;
+    margin-left: 9.5rem;
+    margin-bottom:1rem;
 }

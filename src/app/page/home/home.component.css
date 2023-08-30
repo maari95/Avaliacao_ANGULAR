@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+#texto1{
+    font-size: 4rem;
+}
+
+#texto2{
+    margin-top: 0.75rem;
+    margin-left: 6rem;
+    font-size: 3rem;
+
+}
+.container{
+    padding:3rem;
+     margin-top: 12rem;
+}
+img{
+    width:50%;
+}
+#ang{
+    width: 40%;
+}
